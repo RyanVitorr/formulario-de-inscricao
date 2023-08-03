@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#principal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* botão troca de tela*/
+
+#mudar-pag {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(248, 237, 216);
+    border-radius: 35px;
+    border: 2px solid rgba(248, 88, 88, 0.808);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.479);
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    left: 300px;
+}
+
+/* Tela login */
+
+#login {
+    display: block;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.containerP .text-sup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerP .text-sup > h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.containerP .text-sup > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    padding: 20px;
+    margin: 5px 0;
+}
+
+.containerP .text-sup > ul > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(248, 88, 88, 0.808);
+    border-radius: 50% 50%;
+    background: rgba(238, 214, 168, 0.452);
+    cursor: pointer;
+}
+
+.containerP .text-sup > ul > li > a {
+    color: black;
+}
+
+.containerP .text-sup > p {
+    color: rgba(0, 0, 0, 0.493);
+    margin-bottom: 15px;
+}
+
+.containerP .form > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerP .form > form > input {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 40px;
+    padding: 0 10px; 
+    border-radius: 5px;
+    border: none;
+    background: rgba(248, 225, 183, 0.349);
+}
+
+.containerP .form > form > input::placeholder {
+    color: rgb(77, 2, 2);
+}
+
+.containerP .form > p {
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.containerP .form .bnt {
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    background: rgba(238, 214, 168, 0.452);
+    border-radius: 35px;
+    border: 2px solid rgba(248, 88, 88, 0.808);
+    color: black;
+    font-size: 1.01rem;
+    cursor: pointer;
+}
+
+/* Tela cadastro */
+
+#cadastro {
+    display: none;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+
+#banner {
+    display: none;
+}
