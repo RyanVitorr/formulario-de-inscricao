@@ -116,8 +116,9 @@ main {
     color: rgb(77, 2, 2);
 }
 
-.containerP .form > p {
+.containerP .form > form > p {
     color: rgba(0, 0, 0, 0.493);
+    cursor: pointer;
 }
 
 .containerP .form .bnt {
