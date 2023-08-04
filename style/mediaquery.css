@@ -20,6 +20,7 @@
 
     #login, #cadastro {
         display: block;
+    
     }
 
     #mudar-pag {
@@ -38,6 +39,7 @@
         transform: translate(-50%, -50%);
         border-radius: 0 10px 10px 0;
         background: rgb(238, 220, 188);
+        z-index: 1;
        
         /*width: 325px;*/
         /*left: 24%;*/
